@@ -1,0 +1,31 @@
+/* Estilos para a caixa de diálogo */
+.dialog-container {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dialog-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .dialog-message {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .dialog-ok-button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dialog-ok-button:hover {
+    background-color: #005a9e;
+  }
+  

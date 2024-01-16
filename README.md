@@ -1,2 +1,1 @@
-# pixelmonbrasil-launcher
-Versões oficiais do Launcher
+<h1 align="center">Pixelmon Brasil</h1>

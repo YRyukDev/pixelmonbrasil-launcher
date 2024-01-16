@@ -1,0 +1,162 @@
+VM208 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:62 Baixando e extraindo o arquivo ZIP do Java...
+node:electron/js2c/renderer_init:2 Unable to load preload script: C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\preloader.js
+(anonymous) @ node:electron/js2c/renderer_init:2
+node:electron/js2c/renderer_init:2 TypeError: The "path" argument must be of type string. Received undefined
+    at __node_internal_captureLargerStackTrace (node:internal/errors:490:5)
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Object.join (node:path:429:7)
+    at defaultJavaConfig (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:141:37)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:106:25)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:848:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\preloader.js:6:23)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\preloader.js:70:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at node:electron/js2c/renderer_init:2:33281
+    at node:electron/js2c/renderer_init:2:33407
+    at ___electron_webpack_init__ (node:electron/js2c/renderer_init:2:33411)
+    at node:electron/js2c/renderer_init:2:33534
+    at BuiltinModule.compileForInternalLoader (node:internal/bootstrap/loaders:334:7)
+    at BuiltinModule.compileForPublicLoader (node:internal/bootstrap/loaders:270:10)
+    at loadBuiltinModule (node:internal/modules/cjs/helpers:56:9)
+    at node:internal/modules/cjs/loader:943:15
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:96:12)
+    at node:internal/main/run_main_module:23:47
+(anonymous) @ node:electron/js2c/renderer_init:2
+VM383 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:62 Baixando e extraindo o arquivo ZIP do Java...
+node:internal/validators:163 Uncaught TypeError: The "path" argument must be of type string. Received undefined
+    at __node_internal_captureLargerStackTrace (node:internal/errors:490:5)
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Object.join (node:path:429:7)
+    at defaultJavaConfig (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:141:37)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:106:25)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:848:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\authmanager.js:12:32)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\authmanager.js:340:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at uibinder.js:1:40
+login.js:1 Uncaught ReferenceError: VIEWS is not defined
+    at login.js:1:2497
+VM623 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:62 Baixando e extraindo o arquivo ZIP do Java...
+node:internal/validators:163 Uncaught TypeError: The "path" argument must be of type string. Received undefined
+    at __node_internal_captureLargerStackTrace (node:internal/errors:490:5)
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Object.join (node:path:429:7)
+    at defaultJavaConfig (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:141:37)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:106:25)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:848:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\assetguard.js:17:23)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\assetguard.js:1912:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at settings.js:5:17
+C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:62 Baixando e extraindo o arquivo ZIP do Java...
+node:internal/validators:163 Uncaught TypeError: The "path" argument must be of type string. Received undefined
+    at __node_internal_captureLargerStackTrace (node:internal/errors:490:5)
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Object.join (node:path:429:7)
+    at defaultJavaConfig (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:141:37)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:106:25)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:848:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\assetguard.js:17:23)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\assetguard.js:1912:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\processbuilder.js:9:28)
+    at Object.<anonymous> (C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\processbuilder.js:818:3)
+    at Module._compile (node:internal/modules/cjs/loader:1271:14)
+    at Object..js (node:internal/modules/cjs/loader:1326:10)
+    at Module.load (node:internal/modules/cjs/loader:1126:32)
+    at node:internal/modules/cjs/loader:967:12
+    at Function.<anonymous> (node:electron/js2c/asar_bundle:2:13330)
+    at Function._load (node:electron/js2c/renderer_init:2:2455)
+    at Module.require (node:internal/modules/cjs/loader:1150:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at landing.js:10:22
+C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\loggerutil.js:9 [UICore] UICore Initializing..
+uicore.js:17 The console is dark and full of terrors.
+uicore.js:17 If you've been told to paste something here, you're being scammed.
+uicore.js:17 Unless you know exactly what you're doing, close this window.
+DevTools failed to load source map: Could not load content for file:///C:/Users/trump/OneDrive/%C3%81rea%20de%20Trabalho/pxbrlauncher/app/index.js.map: Unexpected end of JSON input
+DevTools failed to load source map: Could not load content for file:///C:/Users/trump/OneDrive/%C3%81rea%20de%20Trabalho/pxbrlauncher/app/axios.cjs.map: Unexpected end of JSON input
+DevTools failed to load source map: Could not load content for file:///C:/Users/trump/OneDrive/%C3%81rea%20de%20Trabalho/pxbrlauncher/app/luxon.js.map: Unexpected end of JSON input
+DevTools failed to load source map: Could not load content for file:///C:/Users/trump/OneDrive/%C3%81rea%20de%20Trabalho/pxbrlauncher/app/uri.all.js.map: Unexpected end of JSON input
+DevTools failed to load source map: Could not load content for file:///C:/Users/trump/OneDrive/%C3%81rea%20de%20Trabalho/pxbrlauncher/app/performance-now.js.map: Unexpected end of JSON input
+VM208 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:69 Baixado!
+VM208 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:74 Arquivo ZIP salvo
+VM208 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:78 Arquivo ZIP extraído
+VM208 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:88 Arquivo ZIP excluído
+C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:69 Baixado!
+C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:74 Arquivo ZIP salvo
+VM383 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:69 Baixado!
+VM383 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:74 Arquivo ZIP salvo
+VM623 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:69 Baixado!
+VM623 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:74 Arquivo ZIP salvo
+C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:78 Arquivo ZIP extraído
+C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:88 Arquivo ZIP excluído
+VM383 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:78 Arquivo ZIP extraído
+VM383 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:94 Erro ao baixar ou extrair o arquivo ZIP do Java: EPERM: operation not permitted, unlink 'C:\Users\trump\AppData\Roaming\.pxbrlauncher\jre.zip'
+(anonymous) @ VM383 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:94
+VM623 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:78 Arquivo ZIP extraído
+VM623 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:94 Erro ao baixar ou extrair o arquivo ZIP do Java: ENOENT: no such file or directory, unlink 'C:\Users\trump\AppData\Roaming\.pxbrlauncher\jre.zip'
+(anonymous) @ VM623 C:\Users\trump\OneDrive\Área de Trabalho\pxbrlauncher\app\assets\js\configmanager.js:94
