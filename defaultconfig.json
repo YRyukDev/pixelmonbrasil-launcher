@@ -8,16 +8,16 @@
   },
   "servers": [
     {
-      "id": "PixelmonBrasil-1.12.2",
-      "name": "Pixelmon Brasil (Minecraft 1.12.2)",
-      "description": "Modpack para o Pixelmon Brasil (Forge v14.23.5.2860)",
-      "icon": "https://cdn.craftingstore.net/rPPmDHlLQ1/32b30a250abd6331e03a2a1f16466346/sbwt0giwhmpp8alyjucy.png",
+      "id": "DreamPixelmon-1.12.2",
+      "name": "Dream Pixelmon (Minecraft 1.12.2)",
+      "description": "Modpack para o Dream Pixelmon (Forge v14.23.5.2860)",
+      "icon": "https://cdn.discordapp.com/attachments/1197715745958805545/1199519990127284234/icon.png?ex=65c2d70b&is=65b0620b&hm=b14219905e0e75c4491811d0dc5d5f29dd2a6c209fe17f1b3741e63dbf5b153e&",
       "version": "1.0.0",
-      "address": "jogar.pixelmonbrasil.com.br",
+      "address": "jogar.dreampixelmon.com.br",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "1023338190012153866",
-        "largeImageText": "Pixelmon Brasil",
+        "largeImageText": "Dream Pixelmon",
         "largeImageKey": "pkbr1"
       },
       "mainServer": true,
