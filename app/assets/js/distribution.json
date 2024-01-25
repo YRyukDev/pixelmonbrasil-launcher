@@ -1,0 +1,2212 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "DreamPixelmon-1.12.2",
+      "name": "Dream Pixelmon (Minecraft 1.12.2)",
+      "description": "Modpack para o Dream Pixelmon (Forge v14.23.5.2860)",
+      "icon": "https://cdn.discordapp.com/attachments/1197715745958805545/1199519990127284234/icon.png?ex=65c2d70b&is=65b0620b&hm=b14219905e0e75c4491811d0dc5d5f29dd2a6c209fe17f1b3741e63dbf5b153e&",
+      "version": "1.0.0",
+      "address": "jogar.dreampixelmon.com.br",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "1023338190012153866",
+        "largeImageText": "Dream Pixelmon",
+        "largeImageKey": "pkbr1"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://download.pixelmonbrasil.com.br/nebula/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "org.spongepowered.asm.launch:_mixinbootstrap:1.1.0@jar",
+          "name": "_MixinBootstrap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1119478,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/_MixinBootstrap-1.1.0.jar",
+            "MD5": "9df0dc628ebcd787270f487fbbf8157a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:3.1.2@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13792,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/Clumps-3.1.2.jar",
+            "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:3.2.2.353@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 700785,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/CodeChickenLib.jar",
+            "MD5": "f8b4843eccafb2213512ba9be17bfad2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9924337,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/CustomNPCs_1.12.2-05Jun21snapshot.jar",
+            "MD5": "0fef5f8d294cc33e24f963ba27b7167a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:2.13.2@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1049836,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/fancymenu_forge_2.13.2_MC_1.12-1.12.2.jar",
+            "MD5": "a61ff5cac56305113eb44c33321b8161"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "pl.asie:foamfix:0.10.15-1.12.2@jar",
+          "name": "FoamFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229335,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/foamfix-0.10.15-1.12.2.jar",
+            "MD5": "6e09e228316900fc2c1d74e18a8b790f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.phosphor.mod:phosphor-lighting:1.12.2-0.2.6@jar",
+          "name": "Phosphor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1082311,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/phosphor-1.12.2-0.2.6+build50-universal.jar",
+            "MD5": "9892af4ac4f8ca4222138a245592227c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "nathan.phosphorcrashfix:phosphorcrashfix:1.0.0@jar",
+          "name": "Phosphor Crash Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 81988,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/PhosphorCrashFix-1.12.2-1.0.0.jar",
+            "MD5": "d6e67ade847eac670d610e62df1ffaa1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.notstirred:mixincompat:1.0-SNAPSHOT@jar",
+          "name": "Mixin Compatibility",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867021,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/mixin-0.7.jar",
+            "MD5": "fe7215346cd78995664b2cc3f0319bcd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.15.0.275@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 647930,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/JEI.jar",
+            "MD5": "4c3284f41c01b2a378493d4e8c32575c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6780710,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/JourneyMap.jar",
+            "MD5": "41f581c60bd09f207dffb76088026771"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.6.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 618151,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/konkrete_forge_1.6.0_MC_1.12-1.12.2.jar",
+            "MD5": "1812e95a402c0aae9b1f00add7216e58"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.modmuss50.mms:mainmenuscale:1.3.2@jar",
+          "name": "Main Menu Scale",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4174,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/MainMenuScale-1.3.2.jar",
+            "MD5": "851ffaf71aad9d7977be26dce6d2f595"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "codechicken.nei:nei:2.4.2.240@jar",
+          "name": "Not Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 470350,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/NotEnoughItems.jar",
+            "MD5": "064beb533ca885ace7654c5d4066c8c7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_F5@jar",
+          "name": "OptiFine 1.12.2_HD_U_F5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2598821,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/OptiFine.jar",
+            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.pixelextras:pixelextras:1.12.2-2.5.11-universal@jar",
+          "name": "Pixel Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 168089,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/PixelExtras-1.12.2-2.5.17-universal.jar",
+            "MD5": "2f98124f8b298aa1d1bf843192599063"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.therandomlabs.randompatches.core:randompatches:1.12.2-1.22.1.10@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293231,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/randompatches-1.12.2-1.22.1.10.jar",
+            "MD5": "dfbb30ff396e6426ba9a284b04c7bcf3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "reborncore:reborncore:3.19.5@jar",
+          "name": "Reborn Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2285146,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/RebornCore.jar",
+            "MD5": "7ae0f971af00b7fea64dc850be957ddc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.dazo66.shulkerboxshower:shulkerboxviewer:1.5@jar",
+          "name": "ShulkerBoxViewer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20380,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/forgemods/optionalon/Shulker-Box-Viewer-Mod-1.12.2.jar",
+            "MD5": "0f766216cd46fa058ade087525c34d9f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "codechickenlib.cfg",
+          "name": "codechickenlib.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1495,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/codechickenlib.cfg",
+            "path": "config/codechickenlib.cfg"
+          }
+        },
+        {
+          "id": "config.txt",
+          "name": "config.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1729,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/config.txt",
+            "path": "config/fancymenu/config.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 68,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/customizablemenus.txt",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "PKBRMenu.txt",
+          "name": "PKBRMenu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7383,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/customization/PKBRMenu.txt",
+            "path": "config/fancymenu/customization/PKBRMenu.txt"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 10743,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/background.png",
+            "path": "config/fancymenu/images/background.png"
+          }
+        },
+        {
+          "id": "button1.png",
+          "name": "button1.png",
+          "type": "File",
+          "artifact": {
+            "size": 26102,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button1.png",
+            "path": "config/fancymenu/images/button1.png"
+          }
+        },
+        {
+          "id": "button1hover.png",
+          "name": "button1hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 25038,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button1hover.png",
+            "path": "config/fancymenu/images/button1hover.png"
+          }
+        },
+        {
+          "id": "button22.png",
+          "name": "button22.png",
+          "type": "File",
+          "artifact": {
+            "size": 25219,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button22.png",
+            "path": "config/fancymenu/images/button22.png"
+          }
+        },
+        {
+          "id": "button22hover.png",
+          "name": "button22hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 25767,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button22hover.png",
+            "path": "config/fancymenu/images/button22hover.png"
+          }
+        },
+        {
+          "id": "button33.png",
+          "name": "button33.png",
+          "type": "File",
+          "artifact": {
+            "size": 30819,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button33.png",
+            "path": "config/fancymenu/images/button33.png"
+          }
+        },
+        {
+          "id": "button33hover.png",
+          "name": "button33hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 30604,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button33hover.png",
+            "path": "config/fancymenu/images/button33hover.png"
+          }
+        },
+        {
+          "id": "button4.png",
+          "name": "button4.png",
+          "type": "File",
+          "artifact": {
+            "size": 11278,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button4.png",
+            "path": "config/fancymenu/images/button4.png"
+          }
+        },
+        {
+          "id": "button4hover.png",
+          "name": "button4hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 11681,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button4hover.png",
+            "path": "config/fancymenu/images/button4hover.png"
+          }
+        },
+        {
+          "id": "button5.png",
+          "name": "button5.png",
+          "type": "File",
+          "artifact": {
+            "size": 25984,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button5.png",
+            "path": "config/fancymenu/images/button5.png"
+          }
+        },
+        {
+          "id": "button5hover.png",
+          "name": "button5hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 27172,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/button5hover.png",
+            "path": "config/fancymenu/images/button5hover.png"
+          }
+        },
+        {
+          "id": "buttonleave.png",
+          "name": "buttonleave.png",
+          "type": "File",
+          "artifact": {
+            "size": 4922,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/buttonleave.png",
+            "path": "config/fancymenu/images/buttonleave.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 87038,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/logo.png",
+            "path": "config/fancymenu/images/logo.png"
+          }
+        },
+        {
+          "id": "logoserver.png",
+          "name": "logoserver.png",
+          "type": "File",
+          "artifact": {
+            "size": 87038,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/logoserver.png",
+            "path": "config/fancymenu/images/logoserver.png"
+          }
+        },
+        {
+          "id": "logoserverhover.png",
+          "name": "logoserverhover.png",
+          "type": "File",
+          "artifact": {
+            "size": 70319,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/logoserverhover.png",
+            "path": "config/fancymenu/images/logoserverhover.png"
+          }
+        },
+        {
+          "id": "webicon.png",
+          "name": "webicon.png",
+          "type": "File",
+          "artifact": {
+            "size": 7406,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/images/webicon.png",
+            "path": "config/fancymenu/images/webicon.png"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 27376,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/locals/de_de.local",
+            "path": "config/fancymenu/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 103876,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/locals/en_us.local",
+            "path": "config/fancymenu/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 13858,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/locals/pl_pl.local",
+            "path": "config/fancymenu/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 14283,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/locals/pt_br.local",
+            "path": "config/fancymenu/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "zh_cn.local",
+          "name": "zh_cn.local",
+          "type": "File",
+          "artifact": {
+            "size": 52106,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/locals/zh_cn.local",
+            "path": "config/fancymenu/locals/zh_cn.local"
+          }
+        },
+        {
+          "id": "menu_identifiers.db",
+          "name": "menu_identifiers.db",
+          "type": "File",
+          "artifact": {
+            "size": 10497,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/menu_identifiers.db",
+            "path": "config/fancymenu/menu_identifiers.db"
+          }
+        },
+        {
+          "id": "icon16x16.png",
+          "name": "icon16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 578,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/minecraftwindow/icons/icon16x16.png",
+            "path": "config/fancymenu/minecraftwindow/icons/icon16x16.png"
+          }
+        },
+        {
+          "id": "icon32x32.png",
+          "name": "icon32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 1711,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/minecraftwindow/icons/icon32x32.png",
+            "path": "config/fancymenu/minecraftwindow/icons/icon32x32.png"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/fancymenu/user_variables.db",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "foamfix.cfg",
+          "name": "foamfix.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 8085,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/foamfix.cfg",
+            "MD5": "f1ce172310e577f7996bace1367fcd10",
+            "path": "config/foamfix.cfg"
+          }
+        },
+        {
+          "id": "journeymap_ModInfo.cfg",
+          "name": "journeymap_ModInfo.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 373,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/journeymap_ModInfo.cfg",
+            "path": "config/journeymap_ModInfo.cfg"
+          }
+        },
+        {
+          "id": "journeymap_server.cfg",
+          "name": "journeymap_server.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 633,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/journeymap_server.cfg",
+            "path": "config/journeymap_server.cfg"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/konkrete/locals/de_de.local",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/konkrete/locals/en_us.local",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/konkrete/locals/pl_pl.local",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/konkrete/locals/pt_br.local",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "randompatches.cfg",
+          "name": "randompatches.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 9768,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/randompatches.cfg",
+            "path": "config/randompatches.cfg"
+          }
+        },
+        {
+          "id": "configData.nbt",
+          "name": "configData.nbt",
+          "type": "File",
+          "artifact": {
+            "size": 2832,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/configData.nbt",
+            "path": "config/teamreborn/configData.nbt"
+          }
+        },
+        {
+          "id": "config.cfg",
+          "name": "config.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 416,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/mainmenuscale/config.cfg",
+            "path": "config/teamreborn/mainmenuscale/config.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 388,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/reborncore/client.cfg",
+            "path": "config/teamreborn/reborncore/client.cfg"
+          }
+        },
+        {
+          "id": "misc.cfg",
+          "name": "misc.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 638,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/reborncore/misc.cfg",
+            "path": "config/teamreborn/reborncore/misc.cfg"
+          }
+        },
+        {
+          "id": "power.cfg",
+          "name": "power.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 390,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/reborncore/power.cfg",
+            "path": "config/teamreborn/reborncore/power.cfg"
+          }
+        },
+        {
+          "id": "selected_energy.json",
+          "name": "selected_energy.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/reborncore/selected_energy.json",
+            "path": "config/teamreborn/reborncore/selected_energy.json"
+          }
+        },
+        {
+          "id": "upgrades.cfg",
+          "name": "upgrades.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 479,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/config/teamreborn/reborncore/upgrades.cfg",
+            "path": "config/teamreborn/reborncore/upgrades.cfg"
+          }
+        },
+        {
+          "id": "journeymap.core.config",
+          "name": "journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 1871,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.core.config",
+            "MD5": "4ceb8af083c0120b0fbe55a67d44a701",
+            "path": "journeymap/config/5.7/journeymap.core.config"
+          }
+        },
+        {
+          "id": "journeymap.fullmap.config",
+          "name": "journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 774,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.fullmap.config",
+            "MD5": "25e9e3532aeb60648ab90f895b06327b",
+            "path": "journeymap/config/5.7/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap.config",
+          "name": "journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1253,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.minimap.config",
+            "MD5": "8f39a694ea47bebc5ce95ad3cd8e68b1",
+            "path": "journeymap/config/5.7/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "journeymap.minimap2.config",
+          "name": "journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 1257,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.minimap2.config",
+            "MD5": "63a18e3795b74ca05bf2f60ce98a314f",
+            "path": "journeymap/config/5.7/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "journeymap.topo.config",
+          "name": "journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.topo.config",
+            "MD5": "b1aa80fc41d3e6dcd10c29482be8801c",
+            "path": "journeymap/config/5.7/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "journeymap.waypoint.config",
+          "name": "journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 794,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.waypoint.config",
+            "MD5": "b234182503e31289a91fc1ebfaaef31b",
+            "path": "journeymap/config/5.7/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "journeymap.webmap.config",
+          "name": "journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 435,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/config/5.7/journeymap.webmap.config",
+            "MD5": "99659693300b258f58f344b128243f5b",
+            "path": "journeymap/config/5.7/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "default.theme.config",
+          "name": "default.theme.config",
+          "type": "File",
+          "artifact": {
+            "size": 83,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/default.theme.config",
+            "MD5": "9a651dda4758f8a349cc4017f2d60da6",
+            "path": "journeymap/icon/theme/default.theme.config"
+          }
+        },
+        {
+          "id": "htoolbar_begin.png",
+          "name": "htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/container/htoolbar_begin.png",
+            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "htoolbar_end.png",
+          "name": "htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/container/htoolbar_end.png",
+            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "htoolbar_inner.png",
+          "name": "htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/container/htoolbar_inner.png",
+            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "vtoolbar_begin.png",
+          "name": "vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/container/vtoolbar_begin.png",
+            "MD5": "82b8b457e484046e479974e26ac2fa41",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "vtoolbar_end.png",
+          "name": "vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/container/vtoolbar_end.png",
+            "MD5": "82b8b457e484046e479974e26ac2fa41",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "vtoolbar_inner.png",
+          "name": "vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/container/vtoolbar_inner.png",
+            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "flat_button_disabled.png",
+          "name": "flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_disabled.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "flat_button_hover.png",
+          "name": "flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_hover.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "flat_button_off.png",
+          "name": "flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_off.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "flat_button_on.png",
+          "name": "flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_button_on.png",
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "path": "journeymap/icon/theme/flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "flat_toggle_disabled.png",
+          "name": "flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
+            "MD5": "791d87e69e610e569353544f3687d3d0",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "flat_toggle_hover.png",
+          "name": "flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_hover.png",
+            "MD5": "f746c00ea1178ba9768a024dd79972ec",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "flat_toggle_off.png",
+          "name": "flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_off.png",
+            "MD5": "791d87e69e610e569353544f3687d3d0",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "flat_toggle_on.png",
+          "name": "flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/control/flat_toggle_on.png",
+            "MD5": "32333489c3af7acb084fc7d2e1d6b835",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "DesertTemple.theme2.json",
+          "name": "DesertTemple.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8925,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
+            "MD5": "ef97d6d4a3c3a745a5a819f81617a3a4",
+            "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
+          }
+        },
+        {
+          "id": "EndCity.theme2.json",
+          "name": "EndCity.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8920,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/EndCity.theme2.json",
+            "MD5": "8bd570528afe51dad02dcd97eaa16098",
+            "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
+          }
+        },
+        {
+          "id": "ForestMansion.theme2.json",
+          "name": "ForestMansion.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
+            "MD5": "c0fb578a459a623baf538026edd27422",
+            "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
+          }
+        },
+        {
+          "id": "about.png",
+          "name": "about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/about.png",
+            "MD5": "51dd21a90b121e6ee54629d7aa06bbe0",
+            "path": "journeymap/icon/theme/flat/icon/about.png"
+          }
+        },
+        {
+          "id": "actions.png",
+          "name": "actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1371,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/actions.png",
+            "MD5": "0ef11997aba83ffb45df8ef8fa5a7aac",
+            "path": "journeymap/icon/theme/flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "alert.png",
+          "name": "alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 1101,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/alert.png",
+            "MD5": "afaa1f1f124c7446ea79d69718e2e9a9",
+            "path": "journeymap/icon/theme/flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "animals.png",
+          "name": "animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 834,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/animals.png",
+            "MD5": "05d86dc96f528fd3f644384f82f4b30f",
+            "path": "journeymap/icon/theme/flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "automap.png",
+          "name": "automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 591,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/automap.png",
+            "MD5": "457dcb561ef49473e6242f8fabf1f0f1",
+            "path": "journeymap/icon/theme/flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "biome.png",
+          "name": "biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/biome.png",
+            "MD5": "c45a1223330ab9056f931ee1df6a5c3c",
+            "path": "journeymap/icon/theme/flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "browser.png",
+          "name": "browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/browser.png",
+            "MD5": "55898ae51928c26ba420bd3716c64b72",
+            "path": "journeymap/icon/theme/flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "caves.png",
+          "name": "caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 1081,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/caves.png",
+            "MD5": "7da04feb4cefb09e18cc3a095a083558",
+            "path": "journeymap/icon/theme/flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "close.png",
+          "name": "close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1373,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/close.png",
+            "MD5": "e4455f2a047f784231056e104293c161",
+            "path": "journeymap/icon/theme/flat/icon/close.png"
+          }
+        },
+        {
+          "id": "day.png",
+          "name": "day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1515,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/day.png",
+            "MD5": "4b394cdd9d548238442673032c56fa57",
+            "path": "journeymap/icon/theme/flat/icon/day.png"
+          }
+        },
+        {
+          "id": "delete.png",
+          "name": "delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/delete.png",
+            "MD5": "629d6824db2898ebc16a00ba14487552",
+            "path": "journeymap/icon/theme/flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "disable.png",
+          "name": "disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/disable.png",
+            "MD5": "73d4e93e1c708d3f20f3d14e24dfa001",
+            "path": "journeymap/icon/theme/flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "follow.png",
+          "name": "follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1274,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/follow.png",
+            "MD5": "1af8b8c5d19f250bebc0b8a331a4467d",
+            "path": "journeymap/icon/theme/flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "grid.png",
+          "name": "grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 514,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/grid.png",
+            "MD5": "630458a6b626ae8c4661392e28327162",
+            "path": "journeymap/icon/theme/flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "keys.png",
+          "name": "keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/keys.png",
+            "MD5": "48438ebd8464da96a7d0ed12d041cebe",
+            "path": "journeymap/icon/theme/flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "layers.png",
+          "name": "layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/layers.png",
+            "MD5": "450ef573defd780e53aed8b422c20188",
+            "path": "journeymap/icon/theme/flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "monsters.png",
+          "name": "monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/monsters.png",
+            "MD5": "161f4b1825fe6aaa7e6c646e1df7c22d",
+            "path": "journeymap/icon/theme/flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "night.png",
+          "name": "night.png",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/night.png",
+            "MD5": "2c2e1ae5318cd9d3b566ebad983e641d",
+            "path": "journeymap/icon/theme/flat/icon/night.png"
+          }
+        },
+        {
+          "id": "options.png",
+          "name": "options.png",
+          "type": "File",
+          "artifact": {
+            "size": 644,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/options.png",
+            "MD5": "0b718c3c1ee9ee19d0dadae5f252535b",
+            "path": "journeymap/icon/theme/flat/icon/options.png"
+          }
+        },
+        {
+          "id": "pets.png",
+          "name": "pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/pets.png",
+            "MD5": "ecff0a3a4cb9cc88eec4c65d83639d19",
+            "path": "journeymap/icon/theme/flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "players.png",
+          "name": "players.png",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/players.png",
+            "MD5": "ff8899097b21d8744ed57065cf25a5b2",
+            "path": "journeymap/icon/theme/flat/icon/players.png"
+          }
+        },
+        {
+          "id": "reset.png",
+          "name": "reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/reset.png",
+            "MD5": "4027ef0ff444cab320978eb0a2974b7e",
+            "path": "journeymap/icon/theme/flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "savemap.png",
+          "name": "savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/savemap.png",
+            "MD5": "be5bfbbeab34d292ddcef08f9d7383c8",
+            "path": "journeymap/icon/theme/flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "search.png",
+          "name": "search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/search.png",
+            "MD5": "b30e5d3527eb483b344d47b11597b7df",
+            "path": "journeymap/icon/theme/flat/icon/search.png"
+          }
+        },
+        {
+          "id": "server.png",
+          "name": "server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/server.png",
+            "MD5": "b934f10174be355e0414ccea904b019b",
+            "path": "journeymap/icon/theme/flat/icon/server.png"
+          }
+        },
+        {
+          "id": "theme.png",
+          "name": "theme.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/theme.png",
+            "MD5": "4a4cbd1cba4e8606cbb7a8260fe3a2b2",
+            "path": "journeymap/icon/theme/flat/icon/theme.png"
+          }
+        },
+        {
+          "id": "topo.png",
+          "name": "topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/topo.png",
+            "MD5": "ed12bd7bd28debaaf75d1af3a910a1c6",
+            "path": "journeymap/icon/theme/flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "villagers.png",
+          "name": "villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 393,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/villagers.png",
+            "MD5": "1d49a9009bbfee78f7e773a9d352d3a2",
+            "path": "journeymap/icon/theme/flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "waypoints.png",
+          "name": "waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 1606,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/waypoints.png",
+            "MD5": "c7faaffc9c1ce8316f91bb934b19b5c7",
+            "path": "journeymap/icon/theme/flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "zoomin.png",
+          "name": "zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1305,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/zoomin.png",
+            "MD5": "76e924ab75bab01b92d4c7bb97ac2625",
+            "path": "journeymap/icon/theme/flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "zoomout.png",
+          "name": "zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1241,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/icon/zoomout.png",
+            "MD5": "d2e04e295c2f35c1f1c6801dc59dc440",
+            "path": "journeymap/icon/theme/flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 589,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
+            "MD5": "cba29650354980f136db82cc52d55d89",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_mask_256.png",
+          "name": "flat_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 7020,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
+            "MD5": "4e3e20c86f375ae6d1b53f448835fdb8",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png"
+          }
+        },
+        {
+          "id": "flat_mask_512.png",
+          "name": "flat_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 20438,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
+            "MD5": "1e908326f7bddbb59634164c52b39265",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png"
+          }
+        },
+        {
+          "id": "flat_rim_256.png",
+          "name": "flat_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 6751,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
+            "MD5": "253e38c2aca245171819adc83e5d6950",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png"
+          }
+        },
+        {
+          "id": "flat_rim_512.png",
+          "name": "flat_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 14309,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
+            "MD5": "edc555a83f714efa5c12d03865112628",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 959,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
+            "MD5": "b93f935ef1173b4ba48bd95133568b56",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_mask_256.png",
+          "name": "pur_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 2067,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
+            "MD5": "9e3dd563a09eca2e7ce680aa0218d0e3",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png"
+          }
+        },
+        {
+          "id": "pur_mask_512.png",
+          "name": "pur_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 10622,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
+            "MD5": "2135a5f65419ee3fcd0d63a722ec0cfd",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png"
+          }
+        },
+        {
+          "id": "pur_rim_256.png",
+          "name": "pur_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 15210,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
+            "MD5": "8c28162acd291452f96b8962706545bb",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png"
+          }
+        },
+        {
+          "id": "pur_rim_512.png",
+          "name": "pur_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 37803,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
+            "MD5": "6c67ecd99a7cbc14838c437f3059d245",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png"
+          }
+        },
+        {
+          "id": "flat_bottom.png",
+          "name": "flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
+            "MD5": "0dec683433cc1ed29578edbe447e0416",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "flat_bottomleft.png",
+          "name": "flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
+            "MD5": "e0ef36459a92962091b3c2297ebd492b",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "flat_bottomright.png",
+          "name": "flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
+            "MD5": "257056afd41430be6c6e017adbbec83b",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "flat_compass_point.png",
+          "name": "flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
+            "MD5": "3e111929da1913b53355991ba69fdb9a",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "flat_left.png",
+          "name": "flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_left.png",
+            "MD5": "4784fe7e5dcf7cc3629399b67b1626c3",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "flat_right.png",
+          "name": "flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_right.png",
+            "MD5": "f24bb1839602c9c4b507f36f03755f15",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "flat_top.png",
+          "name": "flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_top.png",
+            "MD5": "5d32ccf7b5cf96c557976d18f7b9f807",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "flat_topleft.png",
+          "name": "flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
+            "MD5": "89dac45d101d30c5b68e8053c6882a0d",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "flat_topright.png",
+          "name": "flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/flat_topright.png",
+            "MD5": "f8771e145f8364e82ed7ce3ae79e4bda",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "pur_bottom.png",
+          "name": "pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
+            "MD5": "7ebab006d87fcbc1da28990b3f923989",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "pur_bottomleft.png",
+          "name": "pur_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
+            "MD5": "ef8534a2f05d2c3106f0720e93eddb3f",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png"
+          }
+        },
+        {
+          "id": "pur_bottomright.png",
+          "name": "pur_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
+            "MD5": "4b7003eba91d737295e1429d66b31156",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png"
+          }
+        },
+        {
+          "id": "pur_compass_point.png",
+          "name": "pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
+            "MD5": "3e111929da1913b53355991ba69fdb9a",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "pur_left.png",
+          "name": "pur_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_left.png",
+            "MD5": "7c9ed0e45981a75dfe3f713c00c1acfb",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_left.png"
+          }
+        },
+        {
+          "id": "pur_right.png",
+          "name": "pur_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_right.png",
+            "MD5": "4f353bcd3ffab12b1bd48705732a91dc",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_right.png"
+          }
+        },
+        {
+          "id": "pur_top.png",
+          "name": "pur_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_top.png",
+            "MD5": "fe079179f72d2be13e42252336db233b",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_top.png"
+          }
+        },
+        {
+          "id": "pur_topleft.png",
+          "name": "pur_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 205,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
+            "MD5": "01e815c33e5bec079337e6cf7739511e",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png"
+          }
+        },
+        {
+          "id": "pur_topright.png",
+          "name": "pur_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/minimap/square/pur_topright.png",
+            "MD5": "e800293134c150236f70b7da30bd7169",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topright.png"
+          }
+        },
+        {
+          "id": "NetherFortress.theme2.json",
+          "name": "NetherFortress.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8927,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
+            "MD5": "17e698f2232e0839fc2ea8cf0b2bcfd4",
+            "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
+          }
+        },
+        {
+          "id": "OceanMonument.theme2.json",
+          "name": "OceanMonument.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
+            "MD5": "3320c6ddb02866175d0b13f98e5ab7ff",
+            "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
+          }
+        },
+        {
+          "id": "Purist.theme2.json",
+          "name": "Purist.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8905,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/Purist.theme2.json",
+            "MD5": "06e085caa7fb5a393ad28d239da74eb7",
+            "path": "journeymap/icon/theme/flat/Purist.theme2.json"
+          }
+        },
+        {
+          "id": "Stronghold.theme2.json",
+          "name": "Stronghold.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8923,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
+            "MD5": "875fcfd96f8371c6e3a0fcd7fca994df",
+            "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
+          }
+        },
+        {
+          "id": "journeymap.log",
+          "name": "journeymap.log",
+          "type": "File",
+          "artifact": {
+            "size": 5784,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/journeymap.log",
+            "path": "journeymap/journeymap.log"
+          }
+        },
+        {
+          "id": "journeymap.server.default.config",
+          "name": "journeymap.server.default.config",
+          "type": "File",
+          "artifact": {
+            "size": 773,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.default.config",
+            "MD5": "c2f3ff294c6855cc26c50665a070d137",
+            "path": "journeymap/server/5.7/journeymap.server.default.config"
+          }
+        },
+        {
+          "id": "journeymap.server.dim-1.config",
+          "name": "journeymap.server.dim-1.config",
+          "type": "File",
+          "artifact": {
+            "size": 879,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.dim-1.config",
+            "MD5": "98657434ed173afd90d5ed4c4ecb3c51",
+            "path": "journeymap/server/5.7/journeymap.server.dim-1.config"
+          }
+        },
+        {
+          "id": "journeymap.server.dim0.config",
+          "name": "journeymap.server.dim0.config",
+          "type": "File",
+          "artifact": {
+            "size": 877,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.dim0.config",
+            "MD5": "138dd39a7a64cafffa81f8a8e7c7d021",
+            "path": "journeymap/server/5.7/journeymap.server.dim0.config"
+          }
+        },
+        {
+          "id": "journeymap.server.dim1.config",
+          "name": "journeymap.server.dim1.config",
+          "type": "File",
+          "artifact": {
+            "size": 877,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.dim1.config",
+            "MD5": "91771bdaf1291b81c8344b7d6f7295be",
+            "path": "journeymap/server/5.7/journeymap.server.dim1.config"
+          }
+        },
+        {
+          "id": "journeymap.server.dim72.config",
+          "name": "journeymap.server.dim72.config",
+          "type": "File",
+          "artifact": {
+            "size": 879,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.dim72.config",
+            "MD5": "60f2e23476eaf1c64979e61f5df2b264",
+            "path": "journeymap/server/5.7/journeymap.server.dim72.config"
+          }
+        },
+        {
+          "id": "journeymap.server.dim73.config",
+          "name": "journeymap.server.dim73.config",
+          "type": "File",
+          "artifact": {
+            "size": 879,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.dim73.config",
+            "MD5": "c430b04a1036eb6130cef6278ff78fcd",
+            "path": "journeymap/server/5.7/journeymap.server.dim73.config"
+          }
+        },
+        {
+          "id": "journeymap.server.global.config",
+          "name": "journeymap.server.global.config",
+          "type": "File",
+          "artifact": {
+            "size": 895,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/journeymap/server/5.7/journeymap.server.global.config",
+            "MD5": "73ab89ffc1db35c6eba04273f76a53ca",
+            "path": "journeymap/server/5.7/journeymap.server.global.config"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4439,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "com.pixelmonmod:pixelmon:8.3.8@jar",
+          "name": "Pixelmon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 386205079,
+            "url": "https://download.nodecdn.net/containers/reforged/universal/release/Pixelmon-1.12.2-8.3.8-universal.jar",
+            "MD5": "b231e74eadcd4c3bd012e094e3075944"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "Texturas.zip",
+          "name": "Texturas.zip",
+          "type": "File",
+          "artifact": {
+            "size": 140734442,
+            "MD5": "5943095a5608a7dacdd39b12bc0f2c3e",
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/resourcepacks/Texturas.zip",
+            "path": "resourcepacks/Texturas.zip"
+          }
+        },
+        {
+          "id": "ThePixelmonOST.zip",
+          "name": "ThePixelmonOST.zip",
+          "type": "File",
+          "artifact": {
+            "size": 118460410,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/resourcepacks/ThePixelmonOST.zip",
+            "path": "resourcepacks/ThePixelmonOST.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 15601,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "1.12.2.jar",
+          "name": "1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10180113,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/1.12.2.jar",
+            "MD5": "8c0443868b9e46c77d39db61c755679d",
+            "path": "versions/1.12.2/1.12.2.jar"
+          }
+        },
+        {
+          "id": "1.12.2.json",
+          "name": "1.12.2.json",
+          "type": "File",
+          "artifact": {
+            "size": 29080,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/1.12.2.json",
+            "MD5": "08ab586ae16e9e809f9b33cfad9634bd",
+            "path": "versions/1.12.2/1.12.2.json"
+          }
+        },
+        {
+          "id": "jinput-dx8.dll",
+          "name": "jinput-dx8.dll",
+          "type": "File",
+          "artifact": {
+            "size": 61952,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/jinput-dx8.dll",
+            "MD5": "ec587acff9c06d699829908b515ea17e",
+            "path": "versions/1.12.2/natives/jinput-dx8.dll"
+          }
+        },
+        {
+          "id": "jinput-dx8_64.dll",
+          "name": "jinput-dx8_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 65024,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/jinput-dx8_64.dll",
+            "MD5": "90cab52fca89e7d233741c0439dc2005",
+            "path": "versions/1.12.2/natives/jinput-dx8_64.dll"
+          }
+        },
+        {
+          "id": "jinput-raw.dll",
+          "name": "jinput-raw.dll",
+          "type": "File",
+          "artifact": {
+            "size": 59392,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/jinput-raw.dll",
+            "MD5": "0862d141de8b4dd93ac55cd4a1a78b69",
+            "path": "versions/1.12.2/natives/jinput-raw.dll"
+          }
+        },
+        {
+          "id": "jinput-raw_64.dll",
+          "name": "jinput-raw_64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 62464,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/jinput-raw_64.dll",
+            "MD5": "ffc85e4a631d90112aee8e213cd367cd",
+            "path": "versions/1.12.2/natives/jinput-raw_64.dll"
+          }
+        },
+        {
+          "id": "jinput-wintab.dll",
+          "name": "jinput-wintab.dll",
+          "type": "File",
+          "artifact": {
+            "size": 56832,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/jinput-wintab.dll",
+            "MD5": "7b5d669b490d5737d8a9d1f96274e2e5",
+            "path": "versions/1.12.2/natives/jinput-wintab.dll"
+          }
+        },
+        {
+          "id": "lwjgl.dll",
+          "name": "lwjgl.dll",
+          "type": "File",
+          "artifact": {
+            "size": 306176,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/lwjgl.dll",
+            "MD5": "53280a05f9ba9426b6d2cc4b0312b1f7",
+            "path": "versions/1.12.2/natives/lwjgl.dll"
+          }
+        },
+        {
+          "id": "lwjgl64.dll",
+          "name": "lwjgl64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 317440,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/lwjgl64.dll",
+            "MD5": "8e970e10798e428604e96979bfd7b7dc",
+            "path": "versions/1.12.2/natives/lwjgl64.dll"
+          }
+        },
+        {
+          "id": "OpenAL32.dll",
+          "name": "OpenAL32.dll",
+          "type": "File",
+          "artifact": {
+            "size": 390144,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/OpenAL32.dll",
+            "MD5": "9e02334f9bba622885eadb059f0633b3",
+            "path": "versions/1.12.2/natives/OpenAL32.dll"
+          }
+        },
+        {
+          "id": "OpenAL64.dll",
+          "name": "OpenAL64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 382464,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/OpenAL64.dll",
+            "MD5": "89021c218a3f6feb807a664f852ffbd3",
+            "path": "versions/1.12.2/natives/OpenAL64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x64.dll",
+          "name": "SAPIWrapper_x64.dll",
+          "type": "File",
+          "artifact": {
+            "size": 85504,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/SAPIWrapper_x64.dll",
+            "MD5": "2675265c0f5baa7483a6b66b7ddd1226",
+            "path": "versions/1.12.2/natives/SAPIWrapper_x64.dll"
+          }
+        },
+        {
+          "id": "SAPIWrapper_x86.dll",
+          "name": "SAPIWrapper_x86.dll",
+          "type": "File",
+          "artifact": {
+            "size": 71168,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2/natives/SAPIWrapper_x86.dll",
+            "MD5": "41dfbc2efe788a9aa10317c1a1a19f63",
+            "path": "versions/1.12.2/natives/SAPIWrapper_x86.dll"
+          }
+        },
+        {
+          "id": "1.12.2-forge-14.23.5.2860.json",
+          "name": "1.12.2-forge-14.23.5.2860.json",
+          "type": "File",
+          "artifact": {
+            "size": 11812,
+            "url": "https://download.pixelmonbrasil.com.br/nebula/servers/PixelmonBrasil-1.12.2/files/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json",
+            "MD5": "d6a5e2309db32fcd91aa76de37a5e850",
+            "path": "versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+          }
+        }
+      ]
+    }
+  ]
+}
